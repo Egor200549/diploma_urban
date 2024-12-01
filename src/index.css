@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Intro Regular';
+    src: url('./fonts/intro_regular.woff');
+}
+
+@font-face {
+    font-family: 'Intro Book';
+    src: url('./fonts/intro_bold.woff');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Intro Regular';
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+a {
+    text-decoration: none;
+}
