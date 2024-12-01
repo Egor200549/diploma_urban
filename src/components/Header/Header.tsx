@@ -190,7 +190,7 @@ const Header: FC<Props> = ({ handleBasket }) => {
     const navigate = useNavigate();
 
     const MoveTo = () => {
-        navigate(`/`);
+        navigate(`/diploma_urban`);
     }
 
     useEffect(() => {

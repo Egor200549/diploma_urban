@@ -7,7 +7,7 @@ import Order from "./pages/Order/Order";
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/diploma_urban',
         element: <Layout />,
         loader: Loader,
         children: [

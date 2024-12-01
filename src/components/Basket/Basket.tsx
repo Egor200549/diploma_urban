@@ -24,7 +24,7 @@ const Basket = () => {
     const navigate = useNavigate();
 
     const MoveTo = () => {
-        navigate(`/order`);
+        navigate(`/diploma_urban/order`);
     }
 
     return (
