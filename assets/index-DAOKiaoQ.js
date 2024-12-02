@@ -335,7 +335,7 @@ Error generating stack: `+o.message+`
                 color: ${G.WHITE};
             }
         `}
-`,_c=({children:e,type:t,onClick:n,disabled:r})=>h.jsx(Y8,{$type:t,onClick:n,disabled:r,children:e}),K8=()=>{const e=fr(i=>i.basket.data),t=fr(i=>i.basket.data.reduce((o,s)=>o+s.price,0)),n=ec(),r=()=>{n("/diploma_urban/order")};return h.jsxs(q8,{children:[h.jsxs(Z8,{children:[e.map(i=>h.jsx(B8,{item:i})),e.length===0&&h.jsx("p",{style:{margin:"20px"},children:"Корзина пустая"})]}),h.jsxs(Q8,{children:[h.jsxs("div",{children:[h.jsx(te,{weight:ee.NORMAL,fontSize:re.MENU_14,lineHeight:20,color:"#4D4D4D",children:"Итого:"}),h.jsx(te,{weight:ee.BOLD,fontSize:re.PRICE_20,lineHeight:20,color:"#4D4D4D",children:Intl.NumberFormat("ru-RU").format(t)})]}),h.jsx(_c,{type:eo.BUTTON,onClick:r,children:"Перейти в корзину"})]})]})},Q8=B.div`
+`,_c=({children:e,type:t,onClick:n,disabled:r})=>h.jsx(Y8,{$type:t,onClick:n,disabled:r,children:e}),K8=()=>{const e=fr(i=>i.basket.data),t=fr(i=>i.basket.data.reduce((o,s)=>o+s.price,0)),n=ec(),r=()=>{n("/diploma_urban/order/")};return h.jsxs(q8,{children:[h.jsxs(Z8,{children:[e.map(i=>h.jsx(B8,{item:i})),e.length===0&&h.jsx("p",{style:{margin:"20px"},children:"Корзина пустая"})]}),h.jsxs(Q8,{children:[h.jsxs("div",{children:[h.jsx(te,{weight:ee.NORMAL,fontSize:re.MENU_14,lineHeight:20,color:"#4D4D4D",children:"Итого:"}),h.jsx(te,{weight:ee.BOLD,fontSize:re.PRICE_20,lineHeight:20,color:"#4D4D4D",children:Intl.NumberFormat("ru-RU").format(t)})]}),h.jsx(_c,{type:eo.BUTTON,onClick:r,children:"Перейти в корзину"})]})]})},Q8=B.div`
     padding: 20px 20px 13px 20px;
     box-shadow: 0px -4px 10px 0px #000D541A;
     display: flex;
