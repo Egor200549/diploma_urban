@@ -43,6 +43,7 @@ const Order = () => {
 
     const MoveTo = () => {
         navigate(`/diploma_urban`);
+        setTimeout(() => window.location.reload(), 1000);
     }
 
     const OnSubmit: SubmitHandler<FormData> = (data) => {
