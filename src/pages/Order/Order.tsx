@@ -10,7 +10,6 @@ import OrderItem from "../../components/OrderItem/OrderItem";
 import { useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { resetBasket } from "../../components/features/basketSlice";
-import { useNavigate } from "react-router";
 
 interface FormData {
     name: string,
@@ -38,7 +37,6 @@ const Order = () => {
 
     const { register, handleSubmit } = useForm<FormData>();
     const dispatch = useDispatch<AppDispatch>();
-    const navigate = useNavigate();
 
     const OnSubmit: SubmitHandler<FormData> = (data) => {
         console.log({
@@ -48,7 +46,8 @@ const Order = () => {
         })
 
         dispatch(resetBasket());
-        navigate(`/diploma_urban/order/`);
+
+        window.location.reload();
     }
 
     return (
