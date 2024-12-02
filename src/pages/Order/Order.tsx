@@ -48,7 +48,7 @@ const Order = () => {
         })
 
         dispatch(resetBasket());
-        navigate(`/diploma_urban/`);
+        navigate(`/diploma_urban/order/`);
     }
 
     return (
