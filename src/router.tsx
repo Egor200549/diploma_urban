@@ -7,13 +7,13 @@ import Order from "./pages/Order/Order";
 
 const router = createBrowserRouter([
     {
-        path: 'diploma_urban/',
+        path: 'diploma_urban',
         element: <Layout />,
         loader: Loader,
         children: [
             { index: true, element: <Home /> },
-            { path: '/diploma_urban/sneakers/:id/', element: <Product /> },
-            { path: '/diploma_urban/order/', element: <Order /> },
+            { path: '/diploma_urban/sneakers/:id', element: <Product /> },
+            { path: '/diploma_urban/order', element: <Order /> },
             { path: '/diploma_urban/*', element: <>404 страница не найдена</> }
         ]
     }
