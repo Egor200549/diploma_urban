@@ -76,7 +76,7 @@ const Footer = () => {
     const navigate = useNavigate();
 
     const MoveTo = () => {
-        navigate(`/diploma_urban`);
+        navigate(`/diploma_urban/`);
     }
     return (
         <StyledFooter>
